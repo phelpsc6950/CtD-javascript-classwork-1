@@ -3,9 +3,6 @@
   "version": "0.0.1",
   "description": "Worked exercises for Code the Dream classwork",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/siirila/CtD-javascript-classwork.git"
@@ -23,5 +20,12 @@
   "dependencies": {
     "lodash": "^4.17.11",
     "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "jest": "^24.8.0"
+  },
+  "scripts": {
+    "test": "jest",
+    "test:unit": "jest --watch"
   }
 }
